@@ -1,0 +1,27 @@
+'Psmb.Carousel:Carousel':
+  superTypes:
+    'Neos.Neos:Content': true
+    'Neos.Neos:ContentCollection': true
+  ui:
+    label: Carousel
+    inlineEditable: true
+    inspector:
+      groups:
+        carousel:
+          label: Carousel
+  properties:
+    showArrows:
+      type: boolean
+      defaultValue: true
+      ui:
+        label: 'Show arrows?'
+        reloadIfChanged: true
+        inspector:
+          group: carousel
+    showDots:
+      type: boolean
+      ui:
+        label: 'Show dots?'
+        reloadIfChanged: true
+        inspector:
+          group: carousel
