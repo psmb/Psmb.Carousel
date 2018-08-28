@@ -3,25 +3,27 @@
     'Neos.Neos:Content': true
     'Neos.Neos:ContentCollection': true
   ui:
-    label: Carousel
+    label: i18n
     inlineEditable: true
+    group: structure
+    icon: laptop-code
     inspector:
       groups:
         carousel:
-          label: Carousel
+          label: i18n
   properties:
     showArrows:
       type: boolean
       defaultValue: true
       ui:
-        label: 'Show arrows?'
+        label: i18n
         reloadIfChanged: true
         inspector:
           group: carousel
     showDots:
       type: boolean
       ui:
-        label: 'Show dots?'
+        label: i18n
         reloadIfChanged: true
         inspector:
           group: carousel

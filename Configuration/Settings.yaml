@@ -3,3 +3,8 @@ Neos:
     fusion:
       autoInclude:
         Psmb.Carousel: true
+    userInterface:
+      translation:
+        autoInclude:
+          Psmb.Carousel:
+            - 'NodeTypes/*'
