@@ -15,6 +15,9 @@ prototype(Psmb.Carousel:Carousel) < prototype(Neos.Neos:ContentComponent) {
             prototype(Neos.Neos:ContentCase) {
                 @process.wrap = Psmb.Carousel:SlideWrapper
             }
+            prototype(Neos.Neos:ContentCase).prototype(Neos.Neos:ContentCollectionRenderer).prototype(Neos.Neos:ContentCase) {
+                @process.wrap = ${value}
+            }
         }
     }
 }
